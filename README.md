@@ -1,5 +1,3 @@
-# Chemical Inventory Management System
-
 ## Description
 The Chemical Inventory Management System is a web-based application designed to manage and track various chemical substances, including their properties, quantities, and vendors. This project provides functionalities such as sorting, editing, and adding new chemicals, making it easy to maintain an up-to-date inventory.
 
