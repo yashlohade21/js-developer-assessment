@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* General Body Styles */
+body {
+    font-size: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f8f8f8; /* Light background */
+    padding: 20px; /* Spacing around the content */
+    display: flex;
+    justify-content: center;
+}
+
+/* Icon Styles */
+
+
+
+/* Heading Styles */
+h1 {
+    font-size: 24px; /* Large heading */
+    font-weight: bold; /* Bold text */
+}
+
+/* Table Styles */
+table {
+    width: 70%; /* Full width */
+    border-collapse: collapse; /* No gaps between cells */
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures rounded corners apply to the table */
+}
+
+/* Table Header Styles */
+thead {
+    background-color: #f2f2f2; /* Light grey background for header */
+    font-size: 16px; /* Font size for header */
+    font-weight: bold; /* Bold header text */
+    text-align: left; /* Left-align header text */
+}
+
+thead th {
+    padding: 10px 15px; /* Padding around header cells */
+    color: #555; /* Darker grey color for text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.table-container {
+    width: 60%;
+    margin: 20px; /* Margin around the table container */
+}
+
+.header {
+    display: flex; /* Align items in a row */
+    justify-content: space-between; /* Space between heading and icons */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.icon-container {
+    display: flex; /* Align icons in a row */
+    gap: 10px; /* Space between icons */
+}
+
+.icon {
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px; /* Padding around icons */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+/* Style for the SVG icons */
+.icon svg {
+    width: 15px; /* Width of the icon */
+    height: 15px; /* Height of the icon */
+    fill: currentColor; /* Use current text color for fill */
+}
+.icon
+
+/* Adjust table header styles */
+.table th {
+    cursor: pointer; /* Pointer cursor on header */
+}
+
+/* Table Body Styles */
+tbody td {
+    padding: 10px 15px; /* Padding around body cells */
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+    text-align: left; /* Left-align body text */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff; /* Light grey for even rows */
+}
+
+/* Input Styles */
+td input[type="text"], 
+td input[type="number"] {
+    width: 80%; /* Width of input fields */
+    padding: 6px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Font size for input text */
+}
+
+/* Selected Row Styles */
+.selected {
+    background-color: lightblue; /* Light blue for selected rows */
+}
+/* Toolbar Styles */
+.toolbar {
+    margin-bottom: 15px; /* Space below the toolbar */
+    display: flex; /* Flexbox layout */
+    gap: 10px; /* Spacing between buttons */
+    justify-content: right;
+}
+
+/* Button Styles */
+button {
+    padding: 8px 12px; /* Padding for buttons */
+    font-size: 14px; /* Font size for button text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button.btn-primary {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+}
+
+button.btn-secondary {
+    background-color: #6c757d; /* Grey background */
+    color: white; /* White text */
+}
+
+button.btn-danger {
+    background-color: #dc3545; /* Red background */
+    color: white; /* White text */
+}
+
+button.btn-info {
+    background-color: #17a2b8; /* Light blue background */
+    color: white; /* White text */
+}
+
+button.btn-success {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly darken button on hover */
+}
+
+/* Font Size for Table Data */
+td {
+    font-size: 14px; /* Font size for table cells */
+}
+
+/* Widths for Specific Columns */
+thead th:first-child, 
+tbody td:first-child {
+    width: 30px; /* Width for ID column */
+    text-align: center; /* Center align ID */
+}
+
+thead th:nth-child(2), 
+tbody td:nth-child(2) {
+    width: 220px; /* Width for Chemical Name column */
+}
+
+thead th:nth-child(3), 
+tbody td:nth-child(3) {
+    width: 150px; /* Width for Vendor column */
+}
+
+/* Checkmark Icon Styles */
+.check-icon {
+    color: blue; /* Blue for checkmark */
+    font-size: 16px; /* Font size for checkmark */
+    padding-right: 5px; /* Spacing between checkmark and text */
+    vertical-align: middle; /* Align checkmark vertically */
+}
